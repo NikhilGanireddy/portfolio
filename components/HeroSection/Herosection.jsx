@@ -21,7 +21,7 @@ const Herosection = () => {
         <p>Hi, I'm Nikhil 👋🏻</p>
         <div className="text-center flex flex-col gap-2 text-gradient max-w-xs md:max-w-xl">
           <h1 className="text-[30px] md:text-[56px] font-normal">
-            I'm a UI/UX Designer & Full Stack Web Developer.
+            Im a UI/UX Designer & Full Stack Web Developer.
           </h1>
         </div>
           <button className="px-12  bg-[#1A1A1A] py-4 rounded-md border border-neutral-700 flex items-center gap-2 transition-all duration-200 hover:scale-90">

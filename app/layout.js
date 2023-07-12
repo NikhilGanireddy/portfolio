@@ -1,4 +1,3 @@
-"use client"
 import './globals.css'
 import {Outfit} from 'next/font/google'
 import {GlobalUserContextProvider} from "@context/context";

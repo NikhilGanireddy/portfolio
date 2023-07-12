@@ -16,7 +16,7 @@ a{
     @apply duration-100 transition-all hover:text-gray-300
 }
 .text-gradient {
-    padding: 16px 0;
+    padding: 0 0;
     background-image: linear-gradient(to right, #C0C0C0, #5A5A5A);
     background-clip: text;
     color: transparent;

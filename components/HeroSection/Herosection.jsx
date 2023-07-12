@@ -20,7 +20,7 @@ const Herosection = () => {
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p>Hi, I'm Nikhil 👋🏻</p>
         <div className="text-center flex flex-col gap-2 text-gradient max-w-xs md:max-w-xl">
-          <h1 className="text-[30px] md:text-[56px] font-normal">
+          <h1 className="text-[30px] md:text-[56px] font-normal leading-tight">
             Im a UI/UX Designer & Full Stack Web Developer.
           </h1>
         </div>

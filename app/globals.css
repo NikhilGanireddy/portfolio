@@ -3,12 +3,19 @@
 @tailwind utilities;
 
 body {
-    @apply bg-[#161616] text-[#9E9E9E]
+    color:#9E9E9E;
+    /*background-color: #161616;*/
+    background-attachment: fixed;
+    /*opacity: 0.9;*/
+    /*background-image: radial-gradient(rgba(123, 123, 123, 0.55) 0.1px, #161616 1px);*/
+    /*background-size: 25px 25px;*/
+    /*@apply bg-[#161616]*/
 }
 
-.dot-section {
+
+.dot-section{
     background-color: #161616;
-    opacity: 0.9;
+    opacity: 0.97;
     background-image: radial-gradient(rgba(123, 123, 123, 0.55) 0.1px, #161616 1px);
     background-size: 25px 25px;
 }

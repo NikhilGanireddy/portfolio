@@ -4,12 +4,13 @@ import nikhil from "../../public/nikhil_ganireddy.jpg";
 import { PiArrowLineUpRightLight} from "@node_modules/react-icons/pi";
 
 const Herosection = () => {
-  return (
-    <div className=" dot-section bg-black/10 flex flex-col w-full ">
+
+    return (
+    <div className={` flex flex-col w-full `}>
       <div className="max-w-6xl border-b-neutral-700 border-b mx-auto py-4 w-full">
         <Navbar />
       </div>
-      <div className="max-w-6xl h-full mx-auto w-full min-h-[65vh] justify-center items-center flex flex-col gap-6 py-16">
+      <div className="max-w-6xl h-full mx-auto w-full min-h-[65vh] justify-center items-center flex flex-col gap-6 pt-20">
         <Image
           className="rounded-full"
           src={nikhil}
@@ -21,14 +22,20 @@ const Herosection = () => {
         <p>Hi, I'm Nikhil 👋🏻</p>
         <div className="text-center flex flex-col gap-2 text-gradient max-w-xs md:max-w-xl">
           <h1 className="text-[30px] md:text-[56px] font-normal leading-tight">
-            Im a UI/UX Designer & Full Stack Web Developer.
+            I&apos;m a UI/UX Designer & Full Stack Web Developer.
           </h1>
         </div>
-          <button className="px-12  bg-[#1A1A1A] py-4 rounded-md border border-neutral-700 flex items-center gap-2 transition-all duration-200 hover:scale-90">
+          <button className={`px-12 py-4 rounded-md border border-neutral-700 flex items-center gap-2 transition-all duration-200 hover:scale-90 bg-[#1A1A1A] `}>
               <span>Latest Works</span>
               <PiArrowLineUpRightLight size={18}/>
           </button>
+          <p className=" px-4 text-sm  lg:px-12 leading-7 font-light pt-16 pb-8 max-w-sm md:max-w-3xl text-center">
+              I&apos;m an ambitious undergrad full-stack developer, creating innovative web solutions. Proficient in
+              front-end and back-end development, I craft seamless user experiences. Skilled in HTML, CSS, JavaScript,
+              React.js, Node.js, and more. Passionate about clean code and problem-solving.
+          </p>
       </div>
+
     </div>
   );
 };

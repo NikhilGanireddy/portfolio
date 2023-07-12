@@ -7,7 +7,7 @@ const SkillsSection = () => {
             {AllIcons.map(icon => {
                 return <div className="mx-6 lg:mx-12 flex justify-center items-center gap-4" key={icon.id}>
                     {icon.icon}
-                    <h1 className="text-xl">{icon.name}</h1>
+                    <h1 className="text-xl text-gradient">{icon.name}</h1>
                 </div>
             })}
         </Marquee>

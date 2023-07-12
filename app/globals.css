@@ -28,3 +28,8 @@ a{
     background-clip: text;
     color: transparent;
 }
+
+.border-gradient{
+    border: 5px solid;
+    border-image: linear-gradient(to right, #C0C0C0, #5A5A5A);
+}

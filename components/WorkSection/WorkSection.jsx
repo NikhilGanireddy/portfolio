@@ -6,16 +6,16 @@ import {PiArrowRightThin} from "@node_modules/react-icons/pi";
 
 const WorkSection = () => {
     return <div className="max-w-6xl mx-auto py-20 px-4 lg:px-10 w-full space-y-12">
-        <h1 className="text-center text-4xl font-light">Projects</h1>
+        <h1 className="text-center text-4xl font-light text-gradient">Projects</h1>
         <div className="flex flex-col gap-y-12">
             {projectsList.map(project => {
                 return <div
-                    className="flex flex-col gap-6 p-4 group rounded-2xl lg:flex-row justify-between items-center border border-transparent hover:border-neutral-700 duration-200 transition-all"
+                    className=" flex flex-col gap-6 p-4 group rounded-2xl lg:flex-row justify-between items-center border border-transparent hover:border-neutral-700 duration-200 transition-all"
                     key={project.id}
                 >
                     <div className="h-full space-y-4">
-                        <h1 className="text-4xl">{project.title}</h1>
-                        <p className="text-sm font-light max-w-3xl">{project.description}</p>
+                        <h1 className="text-4xl text-gradient">{project.title}</h1>
+                        <p className="text-sm font-light max-w-3xl ">{project.description}</p>
                         <div className="mt-6 gap-2 items-center justify-center inline-flex">
                             <Link href={project.url} target={"_blank"}
                                   className=" duration-200 transition-all text-sm underline flex gap-2 items-center">

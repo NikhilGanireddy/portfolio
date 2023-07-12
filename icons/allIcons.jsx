@@ -247,11 +247,11 @@ export const AllIcons = [
         icon: <LogoJavascriptIcon/>,
         name: "Vanilla Javascript"
     }, {
-        id: 9,
+        id: 11,
         icon: <Css3Icon/>,
         name: "CSS"
     }, {
-        id: 9,
+        id: 12,
         icon: <Html5Icon/>,
         name: "HTML"
     },

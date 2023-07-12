@@ -4,16 +4,16 @@ import {FaDribbble, FaGithub, FaLinkedinIn} from "@node_modules/react-icons/fa";
 const Navbar = () => {
 
     return (
-        <div className="">
+        <div className=" scroll-smooth">
             <div className="flex justify-between items-center md:p-0 p-2">
                 <div className="justify-center items-center gap-6 inline-flex">
                     <div
                         className={`p-3 lg:p-4 rounded-full border border-neutral-700 inline-flex transition-all duration-200 bg-[#1A1A1A]`}>
                         <FiMail size={18}/>
                     </div>
-                    <p className="text-sm duration-100 transition-all hover:text-gray-300 cursor-pointer">
+                    <a href="#letstalk" className="text-sm duration-100 transition-all hover:text-gray-300 cursor-pointer">
                         Get in touch
-                    </p>
+                    </a>
                 </div>
 
                 <div className="text-sm flex items-center">

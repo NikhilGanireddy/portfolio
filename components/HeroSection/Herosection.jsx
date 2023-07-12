@@ -25,10 +25,10 @@ const Herosection = () => {
             I&apos;m a UI/UX Designer & Full Stack Web Developer.
           </h1>
         </div>
-          <button className={`px-12 py-4 rounded-md border border-neutral-700 flex items-center gap-2 transition-all duration-200 hover:scale-90 bg-[#1A1A1A] `}>
+          <a href="#works" className={`px-12 py-4 rounded-md border border-neutral-700 flex items-center gap-2 transition-all duration-200 hover:scale-90 bg-[#1A1A1A] `}>
               <span>Latest Works</span>
               <PiArrowLineUpRightLight size={18}/>
-          </button>
+          </a>
           <p className=" px-4 text-sm  lg:px-12 leading-7 font-light pt-16 pb-8 max-w-sm md:max-w-3xl text-center">
               I&apos;m an ambitious undergrad full-stack developer, creating innovative web solutions. Proficient in
               front-end and back-end development, I craft seamless user experiences. Skilled in HTML, CSS, JavaScript,

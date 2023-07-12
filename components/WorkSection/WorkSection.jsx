@@ -5,7 +5,7 @@ import {PiArrowRightThin} from "@node_modules/react-icons/pi";
 // import data-tilt from
 
 const WorkSection = () => {
-    return <div className="max-w-6xl mx-auto py-20 px-4 lg:px-10 w-full space-y-12">
+    return <div className="max-w-6xl mx-auto py-20 px-4 lg:px-10 w-full space-y-12" id="works">
         <h1 className="text-center text-4xl font-light text-gradient">Projects</h1>
         <div className="flex flex-col gap-y-12">
             {projectsList.map(project => {

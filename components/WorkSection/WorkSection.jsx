@@ -10,7 +10,7 @@ const WorkSection = () => {
         <div className="flex flex-col gap-y-12">
             {projectsList.map(project => {
                 return <div
-                    className=" flex flex-col gap-6 p-4 group rounded-2xl lg:flex-row justify-between items-center border border-transparent hover:border-neutral-700 duration-200 transition-all"
+                    className=" flex flex-col gap-6 p-4 group rounded-2xl lg:flex-row justify-between items-center border border-transparent hover:border-neutral-700 hover:scale-[1.03] duration-200 transition-all"
                     key={project.id}
                 >
                     <div className="h-full space-y-4">

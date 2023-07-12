@@ -11,10 +11,10 @@ const CertificationsSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {certificates.map(certificate => {
                     return <div key={certificate.id}
-                                className=" group flex flex-col gap-6 p-6 rounded-2xl border border-neutral-700 hover:shadow-neutral-700 shadow-md transition-all duration-200">
+                                className=" group flex flex-col gap-6 p-6 rounded-2xl border border-neutral-700 hover:scale-95 transition-all duration-200">
                         <h1 className="text-3xl font-light text-gradient">{certificate.title}</h1>
-                        <Image className="grayscale-0 group-hover:grayscale duration-200 transition-all max-w-full h-auto w-full aspect-square object-center object-cover rounded-2xl"
-                               src={certificate.picture} alt={certificate.title} width={500} height={200}/>
+                        <Image className="grayscale-0 group-hover:grayscale duration-200 transition-all max-w-full max-h-[200px] lg:max-h-[300px] w-full aspect-square object-top object-cover rounded-2xl"
+                               src={certificate.picture} alt={certificate.title} width={400} height={150}/>
                         <h2 className="font-light text-sm">From: <span
                             className="font-semibold text-[16px] text-gradient">{certificate.from}</span></h2>
                         <Link href={certificate.url} target={"_blank"}

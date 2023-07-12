@@ -4,6 +4,7 @@
 
 body {
     color:#9E9E9E;
+    scroll-behavior: smooth;
     /*background-color: #161616;*/
     background-attachment: fixed;
     /*opacity: 0.9;*/
@@ -20,7 +21,7 @@ body {
     background-size: 25px 25px;
 }
 a{
-    @apply duration-100 transition-all hover:text-gray-300
+    @apply duration-100 transition-all hover:text-gray-300 inline-flex w-max
 }
 .text-gradient {
     padding: 0 0;
@@ -32,4 +33,17 @@ a{
 .border-gradient{
     border: 5px solid;
     border-image: linear-gradient(to right, #C0C0C0, #5A5A5A);
+}
+
+body::-webkit-scrollbar{
+    @apply w-2
+}
+
+body::-webkit-scrollbar-track {
+
+    @apply bg-transparent  rounded-3xl my-12
+}
+
+body::-webkit-scrollbar-thumb{
+    @apply bg-gradient-to-b from-[#C0C0C0] to-[#5A5A5A] rounded-3xl
 }

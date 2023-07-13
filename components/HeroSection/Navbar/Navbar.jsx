@@ -6,15 +6,15 @@ const Navbar = () => {
     return (
         <div className=" scroll-smooth">
             <div className="flex justify-between items-center md:p-0 p-2">
-                <div className="justify-center items-center gap-6 inline-flex">
+                <a href={"#letstalk"} className="justify-center items-center gap-6 inline-flex">
                     <div
                         className={`p-3 lg:p-4 rounded-full border border-neutral-700 inline-flex transition-all duration-200 bg-[#1A1A1A]`}>
                         <FiMail size={18}/>
                     </div>
-                    <a href="#letstalk" className="text-sm duration-100 transition-all hover:text-gray-300 cursor-pointer">
+                    <span  className="text-sm duration-100 transition-all hover:text-gray-300 cursor-pointer">
                         Get in touch
-                    </a>
-                </div>
+                    </span>
+                </a>
 
                 <div className="text-sm flex items-center">
           <span className="px-1">

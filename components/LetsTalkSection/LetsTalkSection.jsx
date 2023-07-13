@@ -30,7 +30,7 @@ const LetsTalkSection = () => {
     return <div className="w-full">
         <div id="letstalk" className=" scroll-smooth max-w-6xl  py-20 px-4 lg:px-10 w-full space-y-8 mx-auto">
             <h1 className="text-center text-4xl font-light text-gradient">Let&apos;s Talk</h1>
-            <div className="flex flex-col lg:flex-row h-full min-w-full justify-between items-center lg:gap-12 gap-4">
+            <div className="flex flex-col lg:flex-row h-full min-w-full justify-between items-center lg:gap-0 gap-4">
                 <div className="max-w-full lg:max-w-[30%] w-full p-6 lg:p-12 rounded-2xl grid grid-rows-3 gap-4">
                     <article className=" bg-[#1A1A1A]  border border-neutral-700 max-w-full rounded-2xl p-6 gap-2 flex flex-col hover:scale-95 transition-all duration-200">
                         <div className="flex gap-2 items-center ">
@@ -62,7 +62,7 @@ const LetsTalkSection = () => {
                 </div>
                 {<span className="inline lg:hidden text-gradient">OR</span>}
                 <form ref={form} onSubmit={sendEmail}
-                      className=" w-full p-6 lg:p-12 rounded-2xl lg:min-w-4/5 flex flex-col gap-6">
+                      className=" w-full p-6 lg:p-12 rounded-2xl lg:min-w-[70%] flex flex-col gap-6">
                     <input
                         minLength={3}
                         className=" bg-transparent border rounded-lg border-neutral-700 px-8 py-4 w-full placeholder:text-[#9E9E9E] text-sm font-light focus:outline focus:outline-neutral-700 "

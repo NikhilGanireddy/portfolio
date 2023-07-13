@@ -7,7 +7,7 @@ import {PiArrowRightThin} from "@node_modules/react-icons/pi";
 const WorkSection = () => {
     return <div className="max-w-6xl mx-auto py-20 px-4 lg:px-10 w-full space-y-12" id="works">
         <h1 className="text-center text-4xl font-light text-gradient">Projects</h1>
-        <div className="flex flex-col gap-y-12">
+        <div className="flex flex-col gap-y-6">
             {projectsList.map(project => {
                 return <div
                     className=" flex flex-col gap-6 p-4 group rounded-2xl lg:flex-row justify-between items-center border border-transparent hover:border-neutral-700 hover:scale-[1.03] duration-200 transition-all"

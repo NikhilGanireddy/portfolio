@@ -10,7 +10,8 @@ const outfit = Outfit({
 
 export const metadata = {
     title: 'Nikhil Ganireddy',
-    description: "Nikhil Ganireddy's Portfolio Website",
+    description: "Nikhil " +
+        "Ganireddy's Portfolio Website",
 }
 
 export default function RootLayout({children}) {

@@ -56,7 +56,7 @@ const LetsTalkSection = () => {
                             <h1 className="text-xl font-normal text-gradient">Whatsapp</h1>
                         </div>
                         <h2 className="font-light text-sm text-gradient">+91 83330-20599</h2>
-                        <a href={"https://api.whatsapp.com/send?phone=8333020599"} target={"_blank"}  className="text-sm font-light underline">Send a
+                        <a href={"https://api.whatsapp.com/send?phone=+918333020599"} target={"_blank"}  className="text-sm font-light underline">Send a
                             message</a>
                     </article>
                 </div>

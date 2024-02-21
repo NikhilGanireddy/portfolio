@@ -9,7 +9,7 @@ import cisco from "../../public/cisco.png"
  const certificates = [
     {
         id: 1,
-        title: "React Js",
+        title: "Data Analytics",
         picture: reactjscertificate,
         from: "Hackerrank",
         url:"https://www.hackerrank.com/certificates/f3a125b71dc3",

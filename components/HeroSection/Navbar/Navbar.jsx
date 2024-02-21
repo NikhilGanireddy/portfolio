@@ -19,36 +19,16 @@ const Navbar = () => {
                 <div className="text-sm flex items-center">
           <span className="px-1">
             <a className="hidden lg:inline" target="_blank"
-               href={"https://www.linkedin.com/in/nikhil-ganireddy-5522a9235"}>
+               href={"https://www.linkedin.com/in/rajeswari-kema-6080a3203/"}>
               Linkedin
             </a>
             <a className="inline lg:hidden" target="_blank"
                href={"https://www.linkedin.com/in/nikhil-ganireddy-5522a9235"}>
               <FaLinkedinIn size={20}/>
             </a>
-            <span className="hidden lg:inline">
-              &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
+          
           </span>
-                    <span className="px-1">
-            <a className="hidden lg:inline" target="_blank" href={"https://github.com/NikhilGanireddy"}>
-              Github
-            </a>
-            <a className="inline lg:hidden" target="_blank" href={"https://github.com/NikhilGanireddy"}>
-              <FaGithub size={20}/>
-            </a>
-            <span className="hidden lg:inline">
-              &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;
-            </span>
-          </span>
-                    <span className="px-1">
-            <a className="hidden lg:inline" target="_blank" href={"https://dribbble.com"}>
-              Dribble
-            </a>
-            <a className="inline lg:hidden" target="_blank" href={"https://dribbble.com"}>
-              <FaDribbble size={20}/>
-            </a>
-          </span>
+                    
                 </div>
             </div>
         </div>

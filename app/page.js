@@ -12,7 +12,7 @@ export default function Home() {
             <Herosection/>
             <SkillsSection/>
             <WorkSection/>
-            <CertificationsSection/>
+            {/* <CertificationsSection/> */}
             <LetsTalkSection/>
             <FooterSection/>
         </div>

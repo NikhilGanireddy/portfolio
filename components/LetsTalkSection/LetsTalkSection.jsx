@@ -37,7 +37,7 @@ const LetsTalkSection = () => {
                             <GrMail size={20}/>
                             <h1 className="text-xl font-normal text-gradient">Email</h1>
                         </div>
-                        <h2 className="font-light text-sm text-gradient">nikhilganireddy@yahoo.com</h2>
+                        <h2 className="font-light text-sm text-gradient">rajeswarikema@gmail.com</h2>
                         <a href={"mailto:nikhilganireddy@gmail.com"} target={"_blank"}  className="text-sm font-light underline">Send a
                             message</a>
                     </article>
@@ -46,8 +46,8 @@ const LetsTalkSection = () => {
                             <FaFacebookMessenger size={20}/>
                             <h1 className="text-xl font-normal text-gradient">Messenger</h1>
                         </div>
-                        <h2 className="font-light text-sm text-gradient">Nikhil Ganireddy</h2>
-                        <a href={"https://m.me/nikhil-ganireddy"} target={"_blank"} className="text-sm font-light underline">Send a
+                        <h2 className="font-light text-sm text-gradient">Rajeswari Kema</h2>
+                        <a href={"https://m.me/rajeswari-kema"} target={"_blank"} className="text-sm font-light underline">Send a
                             message</a>
                     </article>
                     <article className=" bg-[#1A1A1A]  border border-neutral-700 max-w-full rounded-2xl p-6 gap-2 flex flex-col hover:scale-95 transition-all duration-200">
@@ -55,8 +55,8 @@ const LetsTalkSection = () => {
                             <IoLogoWhatsapp size={20}/>
                             <h1 className="text-xl font-normal text-gradient">Whatsapp</h1>
                         </div>
-                        <h2 className="font-light text-sm text-gradient">+91 83330-20599</h2>
-                        <a href={"https://api.whatsapp.com/send?phone=+918333020599"} target={"_blank"}  className="text-sm font-light underline">Send a
+                        <h2 className="font-light text-sm text-gradient">+91 70139-25182</h2>
+                        <a href={"https://api.whatsapp.com/send?phone=+917013925182"} target={"_blank"}  className="text-sm font-light underline">Send a
                             message</a>
                     </article>
                 </div>

@@ -211,11 +211,7 @@ function GraphqlIcon(props) {
 
 
 export const AllIcons = [
-    {
-        id: 1,
-        icon: <NextJsIcon/>,
-        name: "NextJs"
-    },
+    
     {
         id: 2,
         icon: <ReactJsIcon/>,
@@ -238,29 +234,9 @@ export const AllIcons = [
         name: "MongoDB"
     },
     {
-        id: 13,
-        icon: <GraphqlIcon/>,
-        name: "GraphQL"
-    },
-    {
-        id: 6,
-        icon: <ReduxIcon/>,
-        name: "Redux"
-    },
-    {
         id: 7,
         icon: <TailwindcssIcon/>,
         name: "Tailwindcss"
-    },
-    {
-        id: 8,
-        icon: <StyledcomponentsIcon/>,
-        name: "Styled Components"
-    },
-    {
-        id: 9,
-        icon: <TwilioIcon/>,
-        name: "Twilio"
     },
     {
         id: 10,
